@@ -387,6 +387,7 @@
    
     -[] Offline processing of queries with examples
     -[] Introduction, code and examples
-**59.HLD (Fifthteenth week)
-60.Fourier series (Fifthteenth week)**
+**59.HLD (Fifthteenth week)**
+
+**60.Fourier series (Fifthteenth week)**
    
