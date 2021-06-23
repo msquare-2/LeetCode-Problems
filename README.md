@@ -1,6 +1,6 @@
 # DSA with C++
 
-**1. Understanding computer programs (First week - 8/10/2020 - 14/10/2020)**
+**1. Understanding computer programs (First week)**
     
     -[] What is computer program and algorithm
     -[] What is flowchart
@@ -22,7 +22,7 @@
     -[] Break and continue
     -[] Switch
     -[] Operators - arithmetic, relational, logical, bitwise, assignment
-**4. Pattern Questions (Second week 15/10/2020 - 21/10/2020)**
+**4. Pattern Questions (Second week)**
     
     -[] Introductory examples
     -[] Difficult examples
@@ -36,7 +36,7 @@
     
     -[] Introduction to functions
     -[] Examples
-**7. Space and time complexity (Third week 22/10/2020 - 28/10/2020)**
+**7. Space and time complexity (Third week)**
     
     -[] Definition and basics
     -[] Polynomial evaluation
@@ -52,7 +52,7 @@
    
     -[] Introduction and searching
     -[] Example questions
-**10.Character arrays (Fourth week 29/10/2020 - 4/11/2020)**
+**10.Character arrays (Fourth week)**
    
     -[] Introduction and input
     -[] Palindromic arrays
@@ -79,7 +79,7 @@
     -[] Compile time and run time
     -[] Heap and Stack
     -[] New, delete
-**15.Bit Manipulation (Fifth week 5/11/2020 - 11/11/2020)**
+**15.Bit Manipulation (Fifth week)**
    
     -[] Get, set, clear, update
     -[] Is Power of 2
@@ -123,7 +123,7 @@
     -[] Tiling problem
     -[] Friends pairing problem
     -[] Count paths in Maze
-**22.Backtracking (Sixth week 12/11/2020 - 18/11/2020)**
+**22.Backtracking (Sixth week)**
    
     -[] Rat in maze problem
     -[] N-queen problem
@@ -168,7 +168,7 @@
     -[] Floyd's cycle detection and removal
     -[] Doubly linked list
     -[] Circular linked list
-**29.Challenges (Seventh week 19/11/2020 - 25/11/2020)**
+**29.Challenges (Seventh week)**
    
     -[] K append
     -[] Even after odd
@@ -198,7 +198,7 @@
     -[] Introduction
     -[] Maximum element
     -[] Max length unique character substring
-**34.Questions (Eighth week 26/11/2020 - 02/12/2020)**
+**34.Questions (Eighth week)**
    
     -[] Histogram area
     -[] Circular tour
@@ -225,7 +225,7 @@
     -[] Sum replacement problem
     -[] Maximum sum path
     -[] Shortest distance between nodes
-**37.Binary Search Tree (Ninth week 03/12/2020 - 09/12/2020)**
+**37.Binary Search Tree (Ninth week)**
    
     -[] Introduction
     -[] Implementation and insertion
@@ -255,7 +255,7 @@
     -[] Top k most frequent numbers in stream
     -[] Merge k sorted arrays
     -[] Length of Smallest Subsequence such that sum of elements is greater than equal to K
-**41.Hashtable (Tenth week 10/12/2020 - 16/12/2020)**
+**41.Hashtable (Tenth week)**
    
     -[] Introduction to hash functions
     -[] Collision handling and separate chaining
@@ -283,7 +283,7 @@
     -[] Coin change
     -[] Max Circles
     -[] Dividing array
-**45.Dynamic Programming (Eleventh week 17/12/2020 - 23/12/2020)**
+**45.Dynamic Programming (Eleventh week)**
    
     -[] Introduction
     -[] Fibonacci problem
@@ -308,7 +308,7 @@
     -[] Max length bitonic subsequence
     -[] Max sum submatrix
         (​https://www.geeksforgeeks.org/maximum-sum-rectangle-in-a-2d-matrix-dp-27/​)
-**47.Graphs - l (Twelfth week 24/12/2020 - 30/12/2020)**
+**47.Graphs - l (Twelfth week)**
    
     -[] Introduction
     -[] Representation
@@ -340,12 +340,12 @@
     -[] Snakes and ladders problem
     -[] MST problem
     -[] Beautiful vertices
-**51.Questions (Thirteenth week 31/12/2020 - 6/01/2021)**
+**51.Questions (Thirteenth week)**
    
     -[] Sum of all submatrices in a matrix
     -[] Searching in sorted matrix
     -[] Rain water harvesting (https://www.geeksforgeeks.org/trapping-rain-water/)
-**52.Number theory Advanced (** ​ **Thirteenth week)**
+**52.Number theory Advanced (Thirteenth week)**
    
     -[] Extended Euclid
     -[] Multiplicative modulo inverse
@@ -354,26 +354,26 @@
     -[] Binary/Modular exponentiation - both recursive and iterative
     -[] Matrix Exponentiation - It’s cases
     -[] Fermat little theorem, wilson theorem
-**53.Tries (** ​ **Thirteenth week)**
+**53.Tries (Thirteenth week)**
    
     -[] Data structure introduction
     -[] Insertion
     -[] Searching
     -[] Phonebook problem
     -[] Xor subarray problem
-**54.Questions (** ​ **Thirteenth week)**
+**54.Questions (Thirteenth week)**
    
     -[] Intersection of 2 arrays
     -[] String window
     -[] Subarrays with distinct element
     -[] Digital dictionary
-**55.String algorithms (** ​ **Thirteenth week)**
+**55.String algorithms (Thirteenth week)**
    
     -[] Brute force
     -[] KMP
     -[] Finite automata
     -[] Robin karp
-**56.Segment tree (Fourteenth week 7/01/2021 - 13/01/2021)**
+**56.Segment tree (Fourteenth week)**
    
     -[] Intro, build, updation, query
     -[] Min, max, sum in the subarray
@@ -383,7 +383,7 @@
     -[] Structure of BIT
     -[] Update or build, query.
     -[] Problems
-**58.Mo’s (sqrt decomposition) (Fifthteenth week 14/01/2021 - 20/01/2021)**
+**58.Mo’s (sqrt decomposition) (Fifthteenth week)**
    
     -[] Offline processing of queries with examples
     -[] Introduction, code and examples
