@@ -3,39 +3,39 @@ using namespace std;
 
 int max_of_four(int a, int b, int c, int d)
 {
-int max;
-if (a>b){
-    if (c>a) {
-        if (d>c) {
-            max = d;
-        
-        }
-        else {
-            max = c;
-        
-        }
+int max1,max2,max;
+if (a!=b) {
+    if (a>b) {
+        max1 = a;
     
     }
     else {
-    max =a;
+        max1 = b;
+    
     }
 }
-else {
-    if (c>b) {
-        if (d>c) {
-            max = d;
-        
-        }
-        else {
-            max = c;
-        
-        }
+if (c!=d) {
+    if (c>d) {
+        max2 = c;
     
     }
     else {
-    max =b;
-    }    
+        max2 = d;
+    
+    }
+    
 }
+if (max1!=max2) {
+    if (max1>max2) {
+        max = max1;
+    
+    }
+    else {
+        max = max2;
+    
+    }
+}
+
 return max;    
 }
 
