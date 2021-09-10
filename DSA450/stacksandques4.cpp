@@ -48,7 +48,7 @@ class Stack {
         }
         else
         {
-            if ((count%2) == 0)
+            if ((count%2) != 0)
             {
                 Node* temp = top;
                 top = top->prev;
@@ -71,8 +71,17 @@ class Stack {
             cout<<"\nStack Empty";
             exit(1);
         }
-        int x = mid->data;
-        return x;
+        else if ((count%2)==0)
+        {
+            int x = mid->next->data;
+            return x;
+        }
+        else
+        {
+            int x = mid->data;
+            return x;
+        }
+        
     }
 
     void deleteMiddle() {
@@ -111,6 +120,8 @@ int main() {
     st.push(3);
     st.push(4);
     st.push(5);
+    st.push(6);
+    st.deleteMiddle();
     cout<<st.findMiddle()<<endl;
     return 0;
 }
