@@ -7,8 +7,7 @@ public:
                 nums[nonZero++] = nums[cur];
             }
         }
-        for(;nonZero < nums.size(); nonZero++){
-            nums[nonZero] = 0;
-        }
+        while(nonZero < nums.size())
+            nums[nonZero++] = 0;
     }
 };
