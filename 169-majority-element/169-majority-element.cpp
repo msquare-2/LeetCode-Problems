@@ -14,3 +14,6 @@ public:
         return elem;
     }
 };
+
+// Moore Voting Algo
+// ime
