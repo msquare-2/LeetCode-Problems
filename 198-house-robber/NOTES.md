@@ -1,25 +1,22 @@
-**DP Memo i zation Soln**
 ```
 class Solution {
 public:
-int f(int ind, vector<int> &nums, vector<int> &dp){
-if(ind == 0)
-return nums[ind];
-if(ind < 0)
-return 0;
-if(dp[ind] != -1)
-return dp[ind];
-int pick = nums[ind] + f(ind-2, nums, dp);
-int notpick = 0 + f(ind-1, nums, dp);
-return dp[ind] = max(pick, notpick);
-}
 int rob(vector<int>& nums) {
 int n = nums.size();
-vector<int> dp(n, -1);
-return f(n-1, nums, dp);
+int prev1 = nums[0];
+int prev2 = 0;
+for(int i=0; i<n; i++){
+int take = nums[i];
+if(i-2 >= 0)
+take += prev2;
+int notake = 0;
+if(i-1 >= 0)
+notake += prev1;
+int cur = max(take, notake);
+prev2 = prev1;
+prev1 = cur;
+}
+return prev1;
 }
 };
 ```
-**DP Tabulization soln**
-​
-​
